@@ -9,7 +9,7 @@ export interface BaseProduct {
 }
 
 export interface ProductListItem extends BaseProduct {
-
+    id: number
 }
 
 export interface Tag {
