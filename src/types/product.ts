@@ -1,9 +1,10 @@
 export interface BaseProduct {
     id: number
     name: string
+    price: number
     stock_quantity: number
     images: {
-        thubnail: string
+        thumbnail: string
         large: string
     }
 }
